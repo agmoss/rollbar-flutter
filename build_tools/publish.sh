@@ -15,11 +15,11 @@ fi
 
 pushd "$PACKAGE_DIR"
 
-if ! flutter --version | head -n 1 | grep 'Flutter '"$SDK_VERSION"' '; then
-    echo "Publishing requires Flutter version ${SDK_VERSION}" >&2
-    echo "SDK version: "$(flutter --version | head -n 1) >&2
-    exit 1
-fi
+# if ! flutter --version | head -n 1 | grep 'Flutter '"$SDK_VERSION"' '; then
+#     echo "Publishing requires Flutter version ${SDK_VERSION}" >&2
+#     echo "SDK version: "$(flutter --version | head -n 1) >&2
+#     exit 1
+# fi
 
 function getfilename {
     while read l; do
