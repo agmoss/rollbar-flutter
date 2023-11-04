@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1
+
+- Rename the podspec to reflect the package rename
+
 ## 1.5.0
 
 - Updated internal Rollbar Apple SDK to 3.2.0
