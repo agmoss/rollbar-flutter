@@ -3,7 +3,7 @@
 # Run `pod lib lint rollbar_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'rollbar_flutter'
+  s.name             = 'rollbar_flutter_bump'
   s.version          = '1.4.2'
   s.summary          = 'Connect your Flutter applications to Rollbar for error reporting.'
   s.description      = <<-DESC
